@@ -2,6 +2,10 @@
 **Author: Samundra karki**<br>
 **Work: Bachlor's Thesis**<br>
 **Title: GPU-Parallel Preconditioner for Approximated Krylov-based kernel ridge regression training**<br><br>
+
+**Description**<br><br>
+The gist of this project is to reduce the time complexity of the krenel ridge regression from O(n^3) to O(n^2) using the conjugate graident method. To further improve the algorithm, we use GPU for parallel computing and the concept of approximate lagrange basis and morton code. The author of the code of the morton code is Peter Zaspel. Futher detials is found in the .pdf document.
+
 **Instruction** <br>
 To compile: **make** <br>
 To execute: **./preconditioned_kerenl_ridge_regression**<br><br>
